@@ -50,7 +50,7 @@ This lab is broken up into the following sections:
   | Disable certificate verification when connecting | - [x] |
   | Username | *Your user??? username* |
   | Password | *Your user??? password* |
-  | Realm | `provider/clouddragons-ldap` |
+  | Realm | `provider/cloud-dragons-ldap` |
   | Client ID | `myclientid` |
   | Client secret | `myclientsecret` |
 
@@ -131,6 +131,7 @@ In this section you'll publish the endpoint needed to access your Salesforce API
 2.14 Append */user???sf* (ie the name of the  API flow) to the gateway URL in the text file where *user???* is your username. **Note:** For an API flow in App Connect the path of the URL starts with the name of the API flow.
 
   ![API Flow URL](images/api-flow-url.png)
+  
 
 ## Section 3: Redeploy Trader Lite with the new Salesforce API Flow endpoint
 
